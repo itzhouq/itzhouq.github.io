@@ -1,9 +1,9 @@
 # Site settings
-title: 工具集合网
+title: 风飞扬itzhouq的小站
 SEOTitle: 工具集合网
 header-img: img/home-bg.jpg
 email: itzhouq@163.com
-description: "工具集合网"
+description: "风飞扬itzhouq的小站"
 keyword: "AI,工具,在线工具,出海"
 url: "https://itzhouq.cn" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'

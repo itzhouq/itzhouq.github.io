@@ -11,28 +11,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **部署**: GitHub Pages，推送到 master 分支自动触发部署
 
 ## 常用命令
-
-### 本地开发预览
-
-```bash
-# 启动 Jekyll 本地服务器（推荐）
-npm run start
-# 或
-bundle exec jekyll serve
-
-# 同时监听 Less/JS 文件变化并自动编译
-npm run dev
-```
-
-### 构建前端资源
-
-```bash
-# 编译 Less 和压缩 JS（生成 .min 文件）
-grunt
-# 或
-npm run dev  # 监听模式
-```
-
 ### 创建新文章
 
 ```bash
@@ -42,14 +20,10 @@ rake post title="文章标题" subtitle="副标题"
 # 文章会创建在 _posts/ 目录下，文件名格式：YYYY-MM-DD-title.md
 ```
 
-### 部署
+### 预览
 
 ```bash
-# 推送到 GitHub 触发自动部署
-git push origin master
-
-# 推送带 tag
-npm run push
+bundle exec jekyll serve
 ```
 
 ## 项目结构
